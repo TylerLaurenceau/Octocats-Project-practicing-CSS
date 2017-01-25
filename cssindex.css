@@ -2,9 +2,8 @@
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+
   }
-
-
 .octodex{
   height: 500px;
   position:relative;
@@ -13,30 +12,42 @@
   border: solid lightgrey 1px;
   height: 325px;
   width: 325px;
-
+  margin-bottom: 7px;
 }
-.authors img {
+.authors img{
   height: 30px;
   width: 30px;
+
 }
 
 .image-footer{
-vertical-align: middle;
 }
 
-
 .image-caption{
-float: right;
+float:right;
+padding-left: 5px;
+
 }
 
 .image-number{
   float:left;
+  display: inline;
 }
 
 .octocat{
   float:left;
   margin-right: 15px;
 }
+
 li{
   list-style-type: none;
+}
+
+ul{
+  float: left;
+}
+
+ul .authors{
+  float: right;
+  padding-left: 10px;
 }
