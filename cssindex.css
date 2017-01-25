@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+  }
+
+
+.octodex{
+  height: 500px;
+  position:relative;
+}
+.octocat img{
+  border: solid lightgrey 1px;
+  height: 325px;
+  width: 325px;
+
+}
+.authors img {
+  height: 30px;
+  width: 30px;
+}
+
+.image-footer{
+vertical-align: middle;
+}
+
+
+.image-caption{
+float: right;
+}
+
+.image-number{
+  float:left;
+}
+
+.octocat{
+  float:left;
+  margin-right: 15px;
+}
+li{
+  list-style-type: none;
+}
