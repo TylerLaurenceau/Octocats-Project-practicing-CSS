@@ -16,7 +16,7 @@
   width: 325px;
   margin-bottom: 7px;
   border-radius: 3px;
-
+	position: relative;
 }
 .authors img{
   height: 24px;
@@ -24,8 +24,17 @@
 
 }
 
-.image-footer{
+/*.image-footer::after{
+content: " ";
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 5px 0 5px;
+border-color: #969696 transparent transparent transparent;
+position: absolute;
+top:325px;
 }
+*/
 
 .image-caption{
 float:right;
@@ -36,6 +45,11 @@ padding-left: 5px;
 .image-number{
   float:left;
   display: inline;
+}
+
+.image-number::before{
+	content: "#";
+	color: grey;
 }
 
 .octocat{
